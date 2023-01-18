@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+
+
+
+<title type="text">DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321</title>
+<generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http:/DSP2023S/feed.xml" />
+<link rel="alternate" type="text/html" href="http:/DSP2023S/" />
+<updated>2023-01-17T22:15:51-06:00</updated>
+<id>http:/DSP2023S/</id>
+<author>
+  <name>Fatemeh Bagheri</name>
+  <uri>http:/DSP2023S/</uri>
+  <email>bagheri.fateme@gmail.com</email>
+</author>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 1: Version Control Systems, Git, and GitHub]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2023S/lecture/1-vcs"/>
+  <id>http:/DSP2023S/lecture/1-vcs</id>
+  <published>2023-01-20T00:00:00-06:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Fatemeh Bagheri</name>
+    <uri>http:/DSP2023S</uri>
+    <email>bagheri.fateme@gmail.com</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;This lecture aims at providing an overview of the Version Control Systems (VCS) and how to use them for our needs in this course.&lt;/p&gt;
+
+&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;version-control-systems-git-and-github&quot;&gt;Version Control Systems, Git, and GitHub&lt;/h3&gt;
+
+&lt;p&gt;To lean about VCS, Git, and GitHub, we will follow the lecture notes available here,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html&quot; target=&quot;_blank&quot;&gt;Version Control System (VCS)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-git-github-setup/vcs-git-github-setup&quot; target=&quot;_blank&quot;&gt;Setting Up Your Git Software and GitHub Account&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/lecture/1-vcs&quot;&gt;Lecture 1: Version Control Systems, Git, and GitHub&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on January 20, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 1: Version Control Using Git and Github]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2023S/homework/1-vcs"/>
+  <id>http:/DSP2023S/homework/1-vcs</id>
+  <published>2023-01-20T00:00:00-06:00</published>
+  <updated>2023-01-20T00:00:00-06:00</updated>
+  <author>
+    <name>Fatemeh Bagheri</name>
+    <uri>http:/DSP2023S</uri>
+    <email>bagheri.fateme@gmail.com</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday Jan 27, 2023 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience on how to create Git branches, develop your project on multiple branches, merge them, resolve potential conflicts between different branches upon merging, and finally how to delete them. It also gives you some experience with using other commonly-used Git commands.&lt;/p&gt;
+
+&lt;p&gt;Use the Markdown language to design a Github-interpretable README file for each of folders in your project for this course, and a Github web-page for your project. If you need help with Markdown, refer to the HW question below and our lecture notes for cheat-sheets.&lt;/p&gt;
+
+&lt;p&gt;Write your code sections of your answer in Markdown syntax.
+For example,&lt;br /&gt;
+&lt;code&gt;
+    ```bash  &lt;br /&gt;
+    $ git branch -d test  &lt;br /&gt;
+    error: Cannot delete branch 'test' checked out at 'C:/Users/Fatemeh/git/foo'  &lt;br /&gt;
+    ```
+&lt;/code&gt;
+&lt;br /&gt;
+will display the following text highlighted as &lt;em&gt;bash&lt;/em&gt; code, in your &lt;em&gt;readme.md&lt;/em&gt; file (albeit, with different style and color).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git branch -d test
+error: Cannot delete branch 'test' checked out at 'C:/Users/Fatemeh/git/foo'
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/homework/1-vcs&quot;&gt;Homework 1: Version Control Using Git and Github&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on January 20, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Announcement 1: Assessing your programming knowledge and interests]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2023S/announcement/1-assessing-your-knowledge-and-interests"/>
+  <id>http:/DSP2023S/announcement/1-assessing-your-knowledge-and-interests</id>
+  <published>2023-01-20T00:00:00-06:00</published>
+  <updated>2023-01-20T00:00:00-06:00</updated>
+  <author>
+    <name>Fatemeh Bagheri</name>
+    <uri>http:/DSP2023S</uri>
+    <email>bagheri.fateme@gmail.com</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;The goal of this survey is to assess your prior programming experience and to identify the favorite programming language and Data Science topics for this class.
+Ask Fatemeh to send you a link to the survey if you have not already received it.&lt;/p&gt;
+
+&lt;h2 id=&quot;survey-results&quot;&gt;Survey results&lt;/h2&gt;
+
+&lt;p&gt;The survey results will be posted here for your knowledge, once it is complete.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/announcement/1-assessing-your-knowledge-and-interests&quot;&gt;Announcement 1: Assessing your programming knowledge and interests&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on January 20, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Announcement 0: Student-professor connection day]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2023S/announcement/0-student-professor-connection-day"/>
+  <id>http:/DSP2023S/announcement/0-student-professor-connection-day</id>
+  <published>2023-01-20T00:00:00-06:00</published>
+  <updated>2023-01-20T00:00:00-06:00</updated>
+  <author>
+    <name>Fatemeh Bagheri</name>
+    <uri>http:/DSP2023S</uri>
+    <email>bagheri.fateme@gmail.com</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;On the first day of our class, we will try to get to know each other and I will attempt to describe my research work and educational background for you, as well as what we should expect from this course. We will also discuss the survey that have filled out (or will do so) to better plan for our course.&lt;/p&gt;
+
+&lt;div class=&quot;post_toc&quot;&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;about-me-fatemeh-the-instructor&quot;&gt;About me, Fatemeh, the instructor&lt;/h2&gt;
+
+&lt;p&gt;I am a physicist and researcher, and currently a National Science Foundation Postdoctoral Researcher at The University of Texas at Arlington.&lt;/p&gt;
+
+&lt;p&gt;I was introduced to the world of information and computer programming in the 1990s by my father and elder brother. By the end of elementary school, I was so impressed with and knew enough about computer software to write a few simple &lt;a target=&quot;_blank&quot; href=&quot; https://en.wikipedia.org/wiki/PC_game&quot;&gt;computer games&lt;/a&gt; in &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/QBasic&quot;&gt;QBasic programming language&lt;/a&gt; on our first family personal computer, &lt;a target=&quot;_blank&quot; href=&quot;https://en.wikipedia.org/wiki/IBM_386SLC&quot;&gt;IBM 386&lt;/a&gt;. Here is an example of how computer games looked liked 30 years ago.&lt;/p&gt;
+
+&lt;div class=&quot;center&quot;&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;
+	&lt;div class=&quot;video-container&quot;&gt;
+        &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/4TSF5sIgorA&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+		&lt;!-- &lt;iframe width=&quot;853&quot; height=&quot;480&quot; src=&quot;https://www.youtube.com/embed/0XL8RNxzrdw?rel=0&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+
+&lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
+    &lt;figure&gt;
+        
+        &lt;a href=&quot;https://cdslaborg.github.io/connection/EinsteinSandals.jpg&quot; target=&quot;_blank&quot;&gt;
+        
+            &lt;img src=&quot;https://cdslaborg.github.io/connection/EinsteinSandals.jpg&quot; width=&quot;100%&quot; /&gt;
+        
+        &lt;/a&gt;
+        
+        
+            &lt;figcaption&gt;What I imagined I'd do as a physicist&lt;/figcaption&gt;
+        
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+
+&lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
+    &lt;figure&gt;
+        
+        &lt;a href=&quot;https://cdslaborg.github.io/connection/PhDdefense.gif&quot; target=&quot;_blank&quot;&gt;
+        
+            &lt;img src=&quot;https://cdslaborg.github.io/connection/PhDdefense.gif&quot; width=&quot;100%&quot; /&gt;
+        
+        &lt;/a&gt;
+        
+        
+            &lt;figcaption&gt;A scene from my Ph.D. defense&lt;/figcaption&gt;
+        
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I never imagined a day I would use computer programming for scientific purposes. Nevertheless, there has been almost no single day that I have not used scientific programming for my work and research, ever since I entered graduate school.&lt;/p&gt;
+
+&lt;h2 id=&quot;my-research-topics&quot;&gt;My research topics&lt;/h2&gt;
+
+&lt;p&gt;The following are a few examples of what I do nowadays as part of my scientific research.&lt;/p&gt;
+
+&lt;h3 id=&quot;space-physics&quot;&gt;Space Physics&lt;/h3&gt;
+
+&lt;p&gt;I have also worked for a few years in the field of space physics.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://www.swpc.noaa.gov/sites/default/files/phenomena_header.png&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://www.weather.gov/images/safety/space-infographic650.jpg&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;exoplanets&quot;&gt;Exoplanets&lt;/h3&gt;
+
+&lt;p&gt;Another primary focus of my research is the study of exoplanets and extraterrestrial life! Do aliens really exist??&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;https://divisions-prod.s3.amazonaws.com/gps70/images/207_EarthlikeExoplanets_0722.d818df28.fill-1600x500-c100.jpg&quot; width=&quot;100%&quot; /&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;monte-carlo-simulation-and-integration-methods&quot;&gt;Monte Carlo Simulation and Integration Methods&lt;/h3&gt;
+
+&lt;p&gt;One of the fields on which my research is currently focused, is developing Monte Carlo optimizer/sampler and integrator algorithms for Bayesian inverse problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/announcement/0-student-professor-connection-day&quot;&gt;Announcement 0: Student-professor connection day&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on January 20, 2023.&lt;/p&gt;</content>
+</entry>
+
+</feed>
