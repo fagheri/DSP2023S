@@ -9,6 +9,14 @@
 		} ,
 	
 		{
+		  "title"      : "Homework 2: Python programming",
+		  "category"   : "",
+		  "url"        : "/DSP2023S/homework/2-python-programming",
+		  "date"       : "2023-02-08 00:00:00 -0600",
+		  "shortdate"  : "February 08, 2023"
+		} ,
+	
+		{
 		  "title"      : "Quiz 1: Version control system",
 		  "category"   : "",
 		  "url"        : "/DSP2023S/quiz/1-version-control-system",

@@ -22,6 +22,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 2: Python programming",
+    "href": "/DSP2023S/homework/2-python-programming"
+  } ,
+
+  {
     "text": "Homework 1: Version Control Using Git and Github",
     "href": "/DSP2023S/homework/1-vcs"
   } ,
