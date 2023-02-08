@@ -7,6 +7,11 @@ callback([
   } ,
 
   {
+    "text": "Lecture 4: Python - branches, looping, and functions",
+    "href": "/DSP2023S/lecture/4-python-branches-looping-functions"
+  } ,
+
+  {
     "text": "Lecture 3: Python - values, variables, and types",
     "href": "/DSP2023S/lecture/3-beginner-python"
   } ,
