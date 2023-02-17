@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2023S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2023S/" />
-<updated>2023-02-15T14:40:43-06:00</updated>
+<updated>2023-02-16T18:01:41-06:00</updated>
 <id>http:/DSP2023S/</id>
 <author>
   <name>Fatemeh Bagheri</name>
@@ -236,8 +236,8 @@ The following figure illustrates the grade distribution for this quiz.
 &lt;p&gt;The material for this lecture can be found at:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html&quot; target=&quot;_blank&quot;&gt;programming history&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/computer-program-structure/computer-program-structure.html&quot; target=&quot;_blank&quot;&gt;Computer program structure&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html&quot; target=&quot;_blank&quot;&gt;Programming history&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/computer-programming/computer-programming.html&quot; target=&quot;_blank&quot;&gt;Computer programming&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/python-for-beginners/python-for-beginners.html&quot; target=&quot;_blank&quot;&gt;Python for beginners&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -304,13 +304,13 @@ For example,&lt;br /&gt;
 &lt;code&gt;
     ```bash  &lt;br /&gt;
     $ git branch -d test  &lt;br /&gt;
-    error: Cannot delete branch 'test' checked out at 'C:/Users/Fatemeh/git/foo'  &lt;br /&gt;
+    error: Cannot delete branch &apos;test&apos; checked out at &apos;C:/Users/Fatemeh/git/foo&apos;  &lt;br /&gt;
     ```
 &lt;/code&gt;
 &lt;br /&gt;
 will display the following text highlighted as &lt;em&gt;bash&lt;/em&gt; code, in your &lt;em&gt;readme.md&lt;/em&gt; file (albeit, with different style and color).&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git branch -d test
-error: Cannot delete branch 'test' checked out at 'C:/Users/Fatemeh/git/foo'
+error: Cannot delete branch &apos;test&apos; checked out at &apos;C:/Users/Fatemeh/git/foo&apos;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ol&gt;
@@ -385,7 +385,7 @@ Ask Fatemeh to send you a link to the survey if you have not already received it
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
@@ -397,12 +397,12 @@ Ask Fatemeh to send you a link to the survey if you have not already received it
         &lt;/a&gt;
         
         
-            &lt;figcaption&gt;What I imagined I'd do as a physicist&lt;/figcaption&gt;
+            &lt;figcaption&gt;What I imagined I&apos;d do as a physicist&lt;/figcaption&gt;
         
     &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
