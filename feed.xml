@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2023S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2023S/" />
-<updated>2023-02-16T18:03:36-06:00</updated>
+<updated>2023-02-20T12:57:47-06:00</updated>
 <id>http:/DSP2023S/</id>
 <author>
   <name>Fatemeh Bagheri</name>
@@ -304,13 +304,13 @@ For example,&lt;br /&gt;
 &lt;code&gt;
     ```bash  &lt;br /&gt;
     $ git branch -d test  &lt;br /&gt;
-    error: Cannot delete branch &apos;test&apos; checked out at &apos;C:/Users/Fatemeh/git/foo&apos;  &lt;br /&gt;
+    error: Cannot delete branch 'test' checked out at 'C:/Users/Fatemeh/git/foo'  &lt;br /&gt;
     ```
 &lt;/code&gt;
 &lt;br /&gt;
 will display the following text highlighted as &lt;em&gt;bash&lt;/em&gt; code, in your &lt;em&gt;readme.md&lt;/em&gt; file (albeit, with different style and color).&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git branch -d test
-error: Cannot delete branch &apos;test&apos; checked out at &apos;C:/Users/Fatemeh/git/foo&apos;
+error: Cannot delete branch 'test' checked out at 'C:/Users/Fatemeh/git/foo'
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ol&gt;
@@ -385,7 +385,7 @@ Ask Fatemeh to send you a link to the survey if you have not already received it
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
@@ -397,12 +397,12 @@ Ask Fatemeh to send you a link to the survey if you have not already received it
         &lt;/a&gt;
         
         
-            &lt;figcaption&gt;What I imagined I&apos;d do as a physicist&lt;/figcaption&gt;
+            &lt;figcaption&gt;What I imagined I'd do as a physicist&lt;/figcaption&gt;
         
     &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
@@ -469,6 +469,218 @@ Ask Fatemeh to send you a link to the survey if you have not already received it
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/announcement/0-student-professor-connection-day&quot;&gt;Announcement 0: Student-professor connection day&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on January 20, 2023.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 2: Programming history, Python values and variables]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2023S/quiz/2-programming-history-python-values"/>
+  <id>http:/DSP2023S/quiz/2-programming-history-python-values</id>
+  <published>2021-02-20T00:00:00-06:00</published>
+  <updated>2021-02-20T00:00:00-06:00</updated>
+  <author>
+    <name>Fatemeh Bagheri</name>
+    <uri>http:/DSP2023S</uri>
+    <email>bagheri.fateme@gmail.com</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
+
+The following figure illustrates the grade distribution for this quiz.  
+&lt;figure&gt;
+    &lt;img src=&quot;http:/DSP2023S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of programming history and beginner Python programming. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/2/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Assembly&lt;/p&gt;
+
+    &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Yes. An &lt;em&gt;Assembler&lt;/em&gt; interprets the program for the machine.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Fortran&lt;/p&gt;
+
+    &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+in 1950s&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Assembly&lt;/p&gt;
+
+    &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+third, third, third, fourth, fourth, fourth&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+1970s, 1980s, 1980s, 1990s&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+B&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+C, Simula&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Fortran/C&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;syntax errors&lt;/li&gt;
+      &lt;li&gt;runtime errors&lt;/li&gt;
+      &lt;li&gt;semantic errors&lt;br /&gt;
+See the lecture notes for examples of each category.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which type of bug (error) in coding is the least dangerous kind and easiest to fix? why?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; syntax error. Because the code will not run unless the bug is resolved.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which type of bug (error) in coding is the most dangerous and costly kind? why?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; semantic errors. Because the program interpreter will not catch it.&lt;br /&gt;
+The program will run as if there is no error until &lt;a href=&quot;https://en.wikipedia.org/wiki/Ariane_flight_V88&quot;&gt;a catastrophe suddenly happens&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; runtime error&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the biggest integer (in base 10) that you could store in an &lt;code&gt;int32&lt;/code&gt; type?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; 2,147,483,647&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the difference between &lt;code&gt;int16&lt;/code&gt; and the &lt;code&gt;int64&lt;/code&gt; types?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+1) &lt;code&gt;int16&lt;/code&gt; is only 16 bits storage, whereas &lt;code&gt;int64&lt;/code&gt; is 64 bits storage.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Write a &lt;strong&gt;single-line&lt;/strong&gt; python statement that applies the relevant Python string manipulator methods to this string,&lt;br /&gt;
+&lt;br /&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Python Is Great For String Manipulation.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;and transforms it to the following string and and prints it on screen,&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;.noitalupinaM gnirtS roF taerG sI nohtyP
+&lt;/code&gt;&lt;/pre&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;print( &quot;Python Is Great For String Manipulation.&quot;.replace(' ','')[::-1] )
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;pre&gt;&lt;code&gt;.noitalupinaMgnirtSroFtaerGsInohtyP
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Write a &lt;strong&gt;single-line&lt;/strong&gt; python statement that takes the following string,&lt;br /&gt;
+&lt;br /&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Python Is Great For String Manipulation.
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;and transforms it to the following,&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;.otlpnMgit o ar Inhy
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Print every other character in reverse, but note that you need to use Python string slicing method.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;print(&quot;Python Is Great For String Manipulation.&quot;[::-2])
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do you define an empty dictionary?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;empty_dict = {} 
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When an integer overflow happens in Python, what is the expected behavior (what value would be assigned to the overflowed variable)? You may explain with an example.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+The overflowed variable cycles and the value starts again from the smallest possible.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Handling Dictionaries.&lt;/strong&gt;&lt;br /&gt;
+a.  Define a Dictionary of all the courses you are taking this semester.&lt;br /&gt;
+    Use the course numbers as the keys and the course names as the values.&lt;br /&gt;
+    If you do not know or cannot find the course numbers, use a random number as the key.&lt;br /&gt;
+b.  Now convert the list of all course numbers to a python list and print it on screen.&lt;br /&gt;
+c.  Now use a proper command that deletes your least favorite course from the dictionary.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/python-script-full-of-syntax-errors/python-script-full-of-syntax-errors&quot;&gt;Python script full of syntax errors.&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the meaning of &lt;strong&gt;Value Coercion&lt;/strong&gt; in Python? Explain with an example.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the difference between &lt;strong&gt;aliasing&lt;/strong&gt; and &lt;strong&gt;copying&lt;/strong&gt; values in Python?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the difference between &lt;code&gt;a == b&lt;/code&gt; and &lt;code&gt;a is b&lt;/code&gt;?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consider the following Python statement.
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;a = b = c = [1,2,3]
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;Explain what the following command does, what is its output, and why?&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;a is b is c
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consider the following Python statement.
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[a,b] = [c,d] = [4,5]
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;p&gt;Explain what the following command does, what is its output, and why?&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[a,b] is [c,d]
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/quiz/2-programming-history-python-values&quot;&gt;Quiz 2: Programming history, Python values and variables&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on February 20, 2021.&lt;/p&gt;</content>
 </entry>
 
 </feed>
