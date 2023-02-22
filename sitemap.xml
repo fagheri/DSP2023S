@@ -48,6 +48,10 @@
 
     
     <url>
+        <loc>/DSP2023S/homework/3-python-branching-looping</loc>
+    </url>
+    
+    <url>
         <loc>/DSP2023S/lecture/4-python-branches-looping-functions</loc>
     </url>
     
@@ -81,6 +85,10 @@
     
     <url>
         <loc>/DSP2023S/announcement/0-student-professor-connection-day</loc>
+    </url>
+    
+    <url>
+        <loc>/DSP2023S/quiz/2-programming-history-python-values</loc>
     </url>
     
 </urlset>
