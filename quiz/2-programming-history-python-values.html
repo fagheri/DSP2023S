@@ -225,7 +225,8 @@ Fortran/C</p>
       <li>syntax errors</li>
       <li>runtime errors</li>
       <li>semantic errors<br />
-See the lecture notes for examples of each category.</li>
+See the lecture notes for examples of each category.<br />
+<br /></li>
     </ol>
   </li>
   <li>
@@ -306,16 +307,55 @@ c.  Now use a proper command that deletes your least favorite course from the di
     <p><strong>Answer:</strong></p>
   </li>
   <li>
-    <p><a href="https://www.cdslab.org/recipes/programming/python-script-full-of-syntax-errors/python-script-full-of-syntax-errors">Python script full of syntax errors.</a></p>
+    <p><a href="https://www.cdslab.org/recipes/programming/python-script-full-of-syntax-errors/python-script-full-of-syntax-errors" target="_blank">Python script full of syntax errors.</a>.</p>
   </li>
   <li>
     <p>What is the meaning of <strong>Value Coercion</strong> in Python? Explain with an example.</p>
+
+    <p><strong>Answer:</strong><br />
+Value coercion is the implicit process by which the Python interpreter/compiler automatically converts a value of 
+one type into a value of another type when that second type is required by the surrounding context.<br />
+For example, the real (float) type is stronger than the integer (int) type:</p>
+    <pre><code class="language-python">2.0 * 7 # Note that the product of float and integer is coerced into a float.
+type(2.*7)
+</code></pre>
+    <pre><code>14.0
+float
+</code></pre>
+    <p>For more information, see <a href="https://www.cdslab.org/python/notes/values-variables-types/values/values.html#value-coercion-in-python" target="_blank">the lecture notes</a>.</p>
   </li>
   <li>
     <p>What is the difference between <strong>aliasing</strong> and <strong>copying</strong> values in Python?</p>
+
+    <p><strong>Answer:</strong><br />
+All data types in Python can be divided into two categories:</p>
+    <ol>
+      <li>simple data types (e.g., int, float, string, tuple).<br />
+For simple data types, an assignment means that their value is copied to the assigned variable.
+        <pre><code class="language-python">x = 1
+y = x   # An assignment statement that copies the value of x into y.
+x = 2   # Now changing the value of x, won't change the value of y.
+print(x, y)
+</code></pre>
+        <pre><code>2 1
+</code></pre>
+      </li>
+      <li>container data types (e.g., list, dict, set, …).<br />
+For container data types, an assignment in the form of copy can be computationally and memory-wise very expensive, 
+and so it makes sense, when an assignment involves container types as values, then the new name would only point to the original container.<br />
+In other words, the new assignment provides an alias for the container value.</li>
+    </ol>
+
+    <p><br />
+For more information, see <a href="https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#aliasing-vs-copying" target="_blank">the lecture notes</a>.</p>
   </li>
   <li>
     <p>What is the difference between <code>a == b</code> and <code>a is b</code>?</p>
+
+    <p><strong>Answer:</strong><br />
+<code>a == b</code> determines if the <strong>values</strong> of the two objects <code>a</code> and <code>b</code> are identical, 
+whereas <code>a is b</code> determines if the two objects point to the same address in the computer memory.<br />
+For more information, see <a href="https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#aliasing-vs-copying" target="_blank">the lecture notes</a>.</p>
   </li>
   <li>Consider the following Python statement.
     <pre><code class="language-python">a = b = c = [1,2,3]
@@ -323,6 +363,12 @@ c.  Now use a proper command that deletes your least favorite course from the di
     <p>Explain what the following command does, what is its output, and why?</p>
     <pre><code class="language-python">a is b is c
 </code></pre>
+
+    <p><strong>Answer:</strong><br />
+The statement <code>a = b = c = [1,2,3]</code> is a shortcut way of <strong>aliasing</strong> multiple variables with one single value.<br />
+As such, we should expect the statement <code>a is b is c</code> to return the logical (boolean) value <code>True</code>, because <code>is</code> 
+checks whether the two objects have the same memory location in the computer and aliases all point to the same memory location.<br />
+For more information, see <a href="https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#aliasing-vs-copying" target="_blank">the lecture notes</a>.</p>
   </li>
   <li>Consider the following Python statement.
     <pre><code class="language-python">[a,b] = [c,d] = [4,5]
@@ -330,6 +376,10 @@ c.  Now use a proper command that deletes your least favorite course from the di
     <p>Explain what the following command does, what is its output, and why?</p>
     <pre><code class="language-python">[a,b] is [c,d]
 </code></pre>
+
+    <p><strong>Answer:</strong><br />
+The same situation as in the previous example holds, although, here the assignments for <code>a</code> and <code>b</code> are happening at once in one line.<br />
+For more information, see <a href="https://www.cdslab.org/python/notes/values-variables-types/variables/variables.html#aliasing-vs-copying" target="_blank">the lecture notes</a>.</p>
   </li>
 </ol>
 
@@ -399,8 +449,8 @@ c.  Now use a proper command that deletes your least favorite course from the di
 
     <footer class="notepad-site-footer">
     <div class="copyright">
-         <!-- <section>Last updated 2023 / 02 / 22</section></br> -->
-         <section>Last updated Wednesday, 22 Feb 2023 at 04:01 AM CST</section></br>
+         <!-- <section>Last updated 2023 / 02 / 24</section></br> -->
+         <section>Last updated Friday, 24 Feb 2023 at 10:50 AM CST</section></br>
          <section>All content exclusively maintained by <a href=https://www.faba.one target="_blank">Fatemeh Bagheri</a> <!-- &copy;--> </section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>
