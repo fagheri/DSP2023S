@@ -7,6 +7,11 @@ callback([
   } ,
 
   {
+    "text": "Quiz 2: Programming history, Python values and variables",
+    "href": "/DSP2023S/quiz/2-programming-history-python-values-(phys-125112's-conflicted-copy-2023-03-06)"
+  } ,
+
+  {
     "text": "Quiz 1: Version control system",
     "href": "/DSP2023S/quiz/1-version-control-system"
   } ,
@@ -29,6 +34,11 @@ callback([
   {
     "text": "Lecture 1: Version Control Systems, Git, and GitHub",
     "href": "/DSP2023S/lecture/1-vcs"
+  } ,
+
+  {
+    "text": "Homework 4: Python - Functions",
+    "href": "/DSP2023S/homework/4-python-functions"
   } ,
 
   {

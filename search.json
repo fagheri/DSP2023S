@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Homework 4: Python - Functions",
+		  "category"   : "",
+		  "url"        : "/DSP2023S/homework/4-python-functions",
+		  "date"       : "2023-03-12 00:00:00 -0600",
+		  "shortdate"  : "March 12, 2023"
+		} ,
+	
+		{
 		  "title"      : "Homework 3: Python - branches and looping",
 		  "category"   : "",
 		  "url"        : "/DSP2023S/homework/3-python-branching-looping",
@@ -84,6 +92,14 @@
 		  "title"      : "Quiz 2: Programming history, Python values and variables",
 		  "category"   : "",
 		  "url"        : "/DSP2023S/quiz/2-programming-history-python-values",
+		  "date"       : "2021-02-20 00:00:00 -0600",
+		  "shortdate"  : "February 20, 2021"
+		} ,
+	
+		{
+		  "title"      : "Quiz 2: Programming history, Python values and variables",
+		  "category"   : "",
+		  "url"        : "/DSP2023S/quiz/2-programming-history-python-values-(phys-125112's-conflicted-copy-2023-03-06)",
 		  "date"       : "2021-02-20 00:00:00 -0600",
 		  "shortdate"  : "February 20, 2021"
 		} 
