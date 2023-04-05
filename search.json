@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Homework 5: Python - data transfer",
+		  "category"   : "",
+		  "url"        : "/DSP2023S/homework/5-python-modules-data-transfer",
+		  "date"       : "2023-04-05 00:00:00 -0500",
+		  "shortdate"  : "April 05, 2023"
+		} ,
+	
+		{
 		  "title"      : "Lecture 5: Python - modules, data I/O, exception handling, and unit testing",
 		  "category"   : "",
 		  "url"        : "/DSP2023S/lecture/5-modules-io-exception",
@@ -100,14 +108,6 @@
 		  "title"      : "Quiz 2: Programming history, Python values and variables",
 		  "category"   : "",
 		  "url"        : "/DSP2023S/quiz/2-programming-history-python-values",
-		  "date"       : "2021-02-20 00:00:00 -0600",
-		  "shortdate"  : "February 20, 2021"
-		} ,
-	
-		{
-		  "title"      : "Quiz 2: Programming history, Python values and variables",
-		  "category"   : "",
-		  "url"        : "/DSP2023S/quiz/2-programming-history-python-values-(phys-125112's-conflicted-copy-2023-03-06)",
 		  "date"       : "2021-02-20 00:00:00 -0600",
 		  "shortdate"  : "February 20, 2021"
 		} 

@@ -7,13 +7,41 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/DSP2023S/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/DSP2023S/" />
-<updated>2023-03-29T00:31:02-05:00</updated>
+<updated>2023-04-05T11:54:25-05:00</updated>
 <id>http:/DSP2023S/</id>
 <author>
   <name>Fatemeh Bagheri</name>
   <uri>http:/DSP2023S/</uri>
   <email>bagheri.fateme@gmail.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 5: Python - data transfer]]></title>
+  <link rel="alternate" type="text/html" href="http:/DSP2023S/homework/5-python-modules-data-transfer"/>
+  <id>http:/DSP2023S/homework/5-python-modules-data-transfer</id>
+  <published>2023-04-05T00:00:00-05:00</published>
+  <updated>2023-04-05T00:00:00-05:00</updated>
+  <author>
+    <name>Fatemeh Bagheri</name>
+    <uri>http:/DSP2023S</uri>
+    <email>bagheri.fateme@gmail.com</email>
+  </author>
+  
+  <content type="html">
+  
+    
+&lt;p&gt;♣ &lt;strong&gt;Due Date: Monday April 12, 2023 2:30 PM&lt;/strong&gt;. This homework aims at giving you some experience with modules and packaging in Python as well as data IO methods.&lt;/p&gt;
+
+&lt;h2 id=&quot;data-transfer-io&quot;&gt;Data transfer (I/O)&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/data-transfer-amino-acid/data-transfer-amino-acid&quot; target=&quot;_blank&quot;&gt;Data transfer: Parsing Amino Acid data file&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/csv-input-to-formatted-output/csv-input-to-formatted-output&quot; target=&quot;_blank&quot;&gt;Data transfer: Converting Comma-Separated-Values (CSV) input to formatted output&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/homework/5-python-modules-data-transfer&quot;&gt;Homework 5: Python - data transfer&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on April 05, 2023.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -717,149 +745,6 @@ c.  Now use a proper command that deletes your least favorite course from the di
 
   
   &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/quiz/2-programming-history-python-values&quot;&gt;Quiz 2: Programming history, Python values and variables&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on February 20, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Quiz 2: Programming history, Python values and variables]]></title>
-  <link rel="alternate" type="text/html" href="http:/DSP2023S/quiz/2-programming-history-python-values-(phys-125112's-conflicted-copy-2023-03-06)"/>
-  <id>http:/DSP2023S/quiz/2-programming-history-python-values (phys-125112's conflicted copy 2023-03-06)</id>
-  <published>2021-02-20T00:00:00-06:00</published>
-  <updated>2021-02-20T00:00:00-06:00</updated>
-  <author>
-    <name>Fatemeh Bagheri</name>
-    <uri>http:/DSP2023S</uri>
-    <email>bagheri.fateme@gmail.com</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;!--
-This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.  
-
-The following figure illustrates the grade distribution for this quiz.  
-&lt;figure&gt;
-    &lt;img src=&quot;http:/DSP2023S/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
-    &lt;figcaption style=&quot;text-align:center&quot;&gt;
-        Maximum possible points is 1.
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
---&gt;
-
-&lt;p&gt;This quiz aims at testing your basic knowledge of programming history and beginner Python programming. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to &lt;strong&gt;quiz/2/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;hr /&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
-
-    &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
-
-    &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
-
-    &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Which type of bug (error) in coding is the least dangerous kind and easiest to fix? why?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Which type of bug (error) in coding is the most dangerous and costly kind? why?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the biggest integer (in base 10) that you could store in an &lt;code&gt;int32&lt;/code&gt; type?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the difference between &lt;code&gt;int16&lt;/code&gt; and the &lt;code&gt;int64&lt;/code&gt; types?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Write a &lt;strong&gt;single-line&lt;/strong&gt; python statement that applies the relevant Python string manipulator methods to this string,&lt;br /&gt;
-&lt;br /&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Python Is Great For String Manipulation.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;and transforms it to the following string and and prints it on screen,&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;.noitalupinaM gnirtS roF taerG sI nohtyP
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Write a &lt;strong&gt;single-line&lt;/strong&gt; python statement that takes the following string,&lt;br /&gt;
-&lt;br /&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;Python Is Great For String Manipulation.
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;and transforms it to the following,&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-text&quot;&gt;.otlpnMgit o ar Inhy
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; Print every other character in reverse, but note that you need to use Python string slicing method.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;How do you define an empty dictionary?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;When an integer overflow happens in Python, what is the expected behavior (what value would be assigned to the overflowed variable)? You may explain with an example.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Handling Dictionaries.&lt;/strong&gt;&lt;br /&gt;
-a.  Define a Dictionary of all the courses you are taking this semester.&lt;br /&gt;
-    Use the course numbers as the keys and the course names as the values.&lt;br /&gt;
-    If you do not know or cannot find the course numbers, use a random number as the key.&lt;br /&gt;
-b.  Now convert the list of all course numbers to a python list and print it on screen.&lt;br /&gt;
-c.  Now use a proper command that deletes your least favorite course from the dictionary.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/python-script-full-of-syntax-errors/python-script-full-of-syntax-errors&quot;&gt;Python script full of syntax errors.&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the meaning of &lt;strong&gt;Value Coercion&lt;/strong&gt; in Python? Explain with an example.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the difference between &lt;strong&gt;aliasing&lt;/strong&gt; and &lt;strong&gt;copying&lt;/strong&gt; values in Python?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the difference between &lt;code&gt;a == b&lt;/code&gt; and &lt;code&gt;a is b&lt;/code&gt;?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Consider the following Python statement.
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;a = b = c = [1,2,3]
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Explain what the following command does, what is its output, and why?&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;a is b is c
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Consider the following Python statement.
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[a,b] = [c,d] = [4,5]
-&lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Explain what the following command does, what is its output, and why?&lt;/p&gt;
-    &lt;pre&gt;&lt;code class=&quot;language-python&quot;&gt;[a,b] is [c,d]
-&lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/DSP2023S/quiz/2-programming-history-python-values-(phys-125112's-conflicted-copy-2023-03-06)&quot;&gt;Quiz 2: Programming history, Python values and variables&lt;/a&gt; was originally published by Fatemeh Bagheri at &lt;a href=&quot;http:/DSP2023S&quot;&gt;DATA 3401 - Data Science with Python - Spring 2023 - MW 13:00-14:20 @ PKH 223 - F 13:00-14:50 @ PKH 321&lt;/a&gt; on February 20, 2021.&lt;/p&gt;</content>
 </entry>
 
 </feed>

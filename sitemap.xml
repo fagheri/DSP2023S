@@ -48,6 +48,10 @@
 
     
     <url>
+        <loc>/DSP2023S/homework/5-python-modules-data-transfer</loc>
+    </url>
+    
+    <url>
         <loc>/DSP2023S/lecture/5-modules-io-exception</loc>
     </url>
     
@@ -97,10 +101,6 @@
     
     <url>
         <loc>/DSP2023S/quiz/2-programming-history-python-values</loc>
-    </url>
-    
-    <url>
-        <loc>/DSP2023S/quiz/2-programming-history-python-values-(phys-125112's-conflicted-copy-2023-03-06)</loc>
     </url>
     
 </urlset>
